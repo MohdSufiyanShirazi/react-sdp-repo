@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3135,
-  }
+  },
+  base:"react-sdp-repo" // repo name
 })
